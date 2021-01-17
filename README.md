@@ -1,6 +1,6 @@
 This is the implementation of CNN neural network pruning with [taylor filter pruning](https://openaccess.thecvf.com/content_CVPR_2019/papers/Molchanov_Importance_Estimation_for_Neural_Network_Pruning_CVPR_2019_paper.pdf). Experiments are done from pruning 1700 and 2200 filter out of 11000+. For the former one, accuracy is 75.61 and latter on 75.13 with the original 76.00. 
 
-With reference from torhvision classification as well as nni  microsoft model compression. New features include customerize Taylor pruning (RELU pruning include
+With reference from torhvision classification (models and data preprocessing) as well as nni  microsoft model compression. New features include new defined customerize Taylor pruning (RELU pruning include
 skip connections surpport, new iterative pruning schedules), DDP training with
 Pytorch, writing convergency tensorboard events, debug and info logging output surport are added.
 
